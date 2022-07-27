@@ -1,0 +1,313 @@
+/* colors */
+
+.color1 {
+  background-color: #416a59;
+}
+
+.color2 {
+  background-color: #39395f;
+}
+
+.color3 {
+  background-color: #73a24e;
+}
+
+.color4 {
+  background-color: #a9c25d;
+}
+
+
+
+/* structure */
+.container {
+ 
+ 
+  
+  min-width: 100vh;
+  max-width: 100vw;
+}
+.firstrow { 
+  display: flex;
+  position: relative;
+  background-color: #39395f;
+  min-height: 3vh;
+  max-height: 3vh;
+ 
+  
+}
+
+.secondrow { 
+  position: relative;
+  background-color: #ebe4b8;
+ 
+  min-height:47vh;
+  max-height: 47vh;
+  display: flex;
+  align-items: center;
+ 
+  
+}
+
+.thirdrow { 
+  background-color:  #39395f;
+  min-height: 5vh;
+  max-height: 5vh;
+}
+
+.fourthrow { 
+  position: relative;
+  background-color:  #39395f;
+  min-height: 25vh;
+  max-height: 25vh;
+ overflow: hidden;
+}
+
+.fifthrow { 
+  position: relative;
+  display: flex;
+  background-color:  #416a59;
+  min-height: 5vh;
+  max-height: 5vh;
+  align-items: center;
+ 
+}
+
+.differentcolor {
+  background-color: #39395f;
+
+}
+
+
+
+
+
+
+/* buttons */
+
+
+.button{
+  display: inline-flex;
+  height: 50px;
+  padding: 0px;;
+  background: #39395f;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: 'Martel Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 192px;
+  
+  z-index: 500;
+}
+
+.button:hover{
+  background: #284136 ;
+}
+
+.button:active {
+  background: #030b13;
+}
+
+.button__text,
+.button__icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  color: antiquewhite;
+  height: 100%;
+}
+
+.button_icon {
+  font-size: 2em;
+  background:rgba(0,0,0,0.5);
+}
+
+
+.button2{
+  display: inline-flex;
+  
+  
+  padding: 0px;;
+  background: #39395f;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: 'Martel Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 210px;
+  
+  z-index: 500;
+}
+
+.button2:hover{
+  
+  background: #f5eec2;
+ color: #416a59;
+ height: 33px;
+}
+
+.button2:active {
+  background: #030b13;
+}
+
+
+
+
+
+
+   
+   /* Text */
+   
+    .projectdescriptors {
+        line-height: .5;
+        color: darkslategray;
+        padding-top: 1%;
+        font-weight: bold;
+        text-align: center;
+        font-size:larger;
+        font-family: 'Martel Sans', sans-serif;
+        letter-spacing: -1px;
+        z-index: 5;
+        margin-top: 2%;
+    }
+    .projectdescriptorsleft {
+        color: darkslategray;
+        
+        margin-left: 5%;
+        font-weight: bold;
+        text-align: left;
+        font-size:larger;
+        font-family: 'Martel Sans', sans-serif;
+        letter-spacing: -1px;
+        z-index: 5;
+        margin-top: 3%;
+    }
+
+
+    .projectdescriptorsleftwhite {
+      color: white;
+      
+      margin-left: 5%;
+      font-weight: bold;
+      text-align: left;
+      font-size:larger;
+      font-family: 'Martel Sans', sans-serif;
+      letter-spacing: -1px;
+      z-index: 5;
+      margin-top: 3%;
+  }
+
+
+
+    .descriptorsRight {
+        color: darkslategray;
+        padding-top: 2%;
+        padding-right: 3%;;
+        
+        text-align: right;
+        font-size:large;
+        font-family: 'Martel Sans', sans-serif;
+        letter-spacing: -1px;
+        z-index: 5;
+    }
+
+    .descriptorsLeft {
+        color: darkslategray;
+        padding-top: 2%;
+        padding-left: 20%;
+        
+        text-align: left;
+        font-size:large;
+        font-family: 'Martel Sans', sans-serif;
+        letter-spacing: -1px;
+        z-index: 5;
+    }
+
+
+    
+
+
+    .stdtext {
+        display: flex;
+        font-family: 'Martel Sans', sans-serif;      
+        color: white;
+        font-size: medium;
+        z-index: 5;
+        font-weight: 100;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: justify;
+      
+    }
+
+    .stdtextgray {
+      position: relative;
+      display: flex;
+      font-family: 'Martel Sans', sans-serif;      
+      color: rgb(79, 47, 49);
+      font-size: medium;
+      z-index: 5;
+     font-weight: 100;
+     margin-top: .5%; 
+     margin-left: 2%;
+      margin-right: 10%;
+      text-align: justify;
+      
+  }
+
+  .stdtextwhite {
+    position: relative;
+    display: flex;
+    font-family: 'Martel Sans', sans-serif;      
+    color: white;
+    font-size: medium;
+    z-index: 5;
+   font-weight: 100;
+   margin-top: .5%; 
+   margin-left: 2%;
+    margin-right: 10%;
+    text-align: justify;
+    
+}
+
+
+    
+        
+  
+
+    .stdtextopac {
+        
+      font-family: 'Martel Sans', sans-serif;
+      color: darkslategray;
+      font-size: medium;
+      z-index: 5;
+      font-weight: 100;
+      
+      
+      opacity: 10%;
+      height: 25%
+     
+      
+     
+  }
+
+  .biotext {
+    position: absolute;
+    display: flex;
+    font-family: 'Martel Sans', sans-serif;      
+    color: white;
+    font-size: medium;
+    z-index: 5;
+    font-weight: 100;
+    margin-left: 10%;
+    margin-right: 10%;
+    top: 250px;
+    text-align: justify;
+  
+}

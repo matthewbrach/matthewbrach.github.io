@@ -1,4 +1,139 @@
-<html>
-        <h1>Matthew's Porfolio</h1>
-        <img src="./mbrach.jpg" />
-        </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Matthew Brach</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Martel+Sans&display=swa" rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="firstrow">
+        <div class="col-sm-3"> </div>
+        <div class="col-sm-6">2</div>
+        <div class="col-sm-3"> <a class="stdtextgray button2" href="mailto:matthew.brach@gmail.com">matthew.brach@gmail.com</a></div></div>
+        
+        
+        <div class="secondrow">
+        <div class="col-sm-12" > 
+        <button id="siggy" class="sigbtn" onclick="swaptext()"></button>
+        <span id=biotext  class="biotext"> Matthew Brach has been playing with coding and designing since the days of the Apple IIc. Back when screens were green, and modems beeped and screeched. His love of design lead him into advertising and into his current role as a creative director for Clovehitch, a Chicago and Los Angeles based advertising agency. Currently Matthew is also working towards his Professional Certificate in Coding - Full Stack Development from MIT. When he is away from his computer, he can be found restoring and sailing an old 1936 wooden sailboat, or smashing his knuckles restoring a 1965 mustang. Yes, blood has been lossed and lessons have been learned - but thats all part of the fun. Matthew is also an elected public servant - serving as a board member of the Palos Verdes Peninsula Unified School District, and of the Southern California Regional Occupation Center. Matthew holds a degree in Psychology from Northwestern University and a Certificate in Hotel Asset Management from Cornell.  He is married with two kids, two dogs and t̵w̵o̵  one fish. You can find him on github as matthewbrach.</span>
+        </div></div>
+        
+        <div class="thirdrow">
+        <div class="col-sm-5"><div class="projectdescriptors"> Codes á la mode <br></div> </div>
+        <div class="col-sm-2"></button></div>
+        <div class="col-sm-5"> <div class="projectdescriptors"> Project du jour <br></div> </div>
+        </div>
+        
+        
+        
+        
+        
+        <div class="fourthrow">
+        <div class="col-sm-5"><br>
+        
+               
+            <div class="projectdescriptorsleft">
+               
+                <div>Pac Man 
+                    <div class="stdtextgray"> <img src="mitlogo.png" style: height="10" alt="MIT" />&nbsp &nbsp &nbsp &nbsp  Control of the DOM (Mod 4)</div>
+                 </div>
+               <div><br></div>
+                <div>Eye Exercise
+                    <div class="stdtextgray"> <img src="mitlogo.png" style: height="10" alt="MIT" />&nbsp &nbsp &nbsp &nbsp Animated style css and js (Mod 8)</div>
+                </div>
+                <div><br></div>
+                <div>Realtime Bus Tracking
+                    <div class="stdtextgray"> <img src="mitlogo.png" style: height="10" alt="MIT" />&nbsp &nbsp &nbsp &nbsp Asynchronous code and mapping (Mod 9)</div>
+
+        </div>
+        </div>
+        </div>
+
+
+        <div class="col-sm-2"> <br> <br> 
+            
+            <img src="/images/biopicture.jpg" alt="Matthew Brach" width="192" height="192"> </img> <div><br></div>
+            <iframe width="192" height="200" src="https://www.youtube.com/embed/bFTmPBD_wJ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="col-sm-5">
+            <div><br><br></div>
+           
+            
+            
+            <div class="clock"> 
+                <div class="marking marking-one"></div>
+                <div class="marking marking-two"></div>
+                <div class="marking marking-three"></div>
+                <div class="marking marking-four"></div>
+                <div class="inner-clock-face"> </div>   
+                <div class="outer-clock-face">
+                <div class="hand hour-hand"></div>
+                <div class="hand min-hand"></div>
+                <div class="hand second-hand"></div>
+                div <button class="windbutton" onclick="play()"></button> </div>
+                
+                
+                </div>
+                
+                <div class="justifiedpara">  
+                 <br>I developed this code to mimic a ships clock. Ships clocks would chime 8 bells at the end of, and one bell for every half hour, of a watch.  There were six watches per day - currently it is the <em> <span id="watch"></span>. </em> Click the chime button to enable chiming on the half-hour and hour. status:<b> <span id="chimestatus"></span> </b>
+                
+            </div>
+        </div>
+        </div>
+        <div class="fifthrow">
+                <div class="col-sm-10">
+
+                    <button type="button" class="button" onclick="window.location='/projects.html'">
+                        <span class="button__text">projects&nbsp&nbsp&nbsp</span>
+                        <span class="button__icon">
+                        <ion-icon name="code-sharp"></ion-icon> 
+                        </span>
+            
+                        </button>
+                        <button type="button" class="button" onclick="location.href='https://matthewbrach.github.io/'">
+                        <span class="button__text">Home&nbsp&nbsp&nbsp </span>
+                        <span class="button__icon">
+                        <ion-icon name="logo-github"></ion-icon>
+                        </span>
+                        </button>
+                    
+                        <button type="button" class="button" onclick="location.href='https://www.linkedin.com/in/matthew-brach-43034093'">
+                        <span class="button__text">linkedin&nbsp&nbsp&nbsp</span>
+                        <span class="button__icon">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                        </span>
+                        </button>
+                   
+                        <button type="button" class="button" onclick="swaptext()">
+                        <span class="button__text">about&nbspme</span>
+                        <span class="button__icon">
+                        <ion-icon name="person-circle-outline"></ion-icon>
+                        </span>
+                        </button>
+                </div>
+                <div class="col-sm-2"></div>
+                
+                </div>
+
+    </div>
+    
+</div>
+
+
+<script src="/setWatch.js"></script>        
+<script src="/clock.js"></script>
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        
+    </body>
+
+</body>
+</html>
